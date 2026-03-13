@@ -1,0 +1,28 @@
+{
+  "expo": {
+    "name": "Kairos",
+    "slug": "kairos",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "automatic",
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.krish.kairos"
+    },
+    "android": {
+      "package": "com.krish.kairos"
+    },
+    "plugins": [
+      "expo-notifications",
+      "expo-secure-store"
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "0d3a766c-d916-4127-a7b4-ff842c0d9f10"
+      }
+    }
+  }
+}
