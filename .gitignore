@@ -1,2 +1,35 @@
-node_modules
-node_modules
+# dependencies
+node_modules/
+
+# Expo / React Native
+.expo/
+dist/
+web-build/
+android-build/
+ios-build/
+
+# Local configuration and secret keys
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# EAS Build
+eas-build-pre-install.sh
+eas-build-post-install.sh
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Temporary files
+/tmp/
+doctor_output.txt
+doctor_output_2.txt
+
+# OS files
+.DS_Store
+Thumbs.db
